@@ -33,7 +33,6 @@ SQLite
   pip install -r requirements.txt  
 ### 6. Перейти в папку проекта и запустить его:
 ```
-  cd blogicum
   ./manage.py migrate
   ./manage.py loaddata db.json
   ./manage.py runserver
